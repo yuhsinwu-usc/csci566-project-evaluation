@@ -21,3 +21,10 @@ This module is designed to work with the **LIBERO evaluation environment** and *
 ---
 
 # Project Structure
+
+evaluation/
+│
+├── api.py # Clean evaluation API
+├── metrics.py # Standardized metrics schema
+├── logger.py # Result logging utilities
+└── run_eval.py # CLI entry point
